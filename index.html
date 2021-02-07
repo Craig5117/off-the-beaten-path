@@ -3,6 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Off the Beaten Path App" />
+    <meta name="title" property="og:title" content="Off the Beaten Path" />
+    <meta property="og:type" content="Website" />
+    <meta
+      name="image"
+      property="og:image"
+      content="https://live.staticflickr.com/65535/50916729956_0505d3a356_z.jpg"
+    />
+    <meta
+      name="description"
+      property="og:description"
+      content="A simple app that helps you find hiking trails nearby your chosen location. Utilizes third party APIs, Bulma, and Javascript DOM manipulation."
+    />
+    <meta
+      name="author"
+      content="Craig Bennett, Vlorian Dervishi, Veronica Williams"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
@@ -11,20 +28,25 @@
       src="https://kit.fontawesome.com/5f706452ba.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="icon" type="image/ico" href="./assets/Images/Off-The-Beaten-Path-ICO.ico">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link
+      rel="icon"
+      type="image/ico"
+      href="./assets/Images/Off-The-Beaten-Path-ICO.ico"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Off the Beaten Path</title>
   </head>
   <body class="has-background-dark">
     <main>
       <header id="header" class="is-justify-content-center">
-        <div class="is-flex is-align-content-center is-justify-content-center" id="titleContainer">
-          <h1
-            class="title is-strong is-2 has-text-danger-dark"
-          >
+        <div
+          class="is-flex is-align-content-center is-justify-content-center"
+          id="titleContainer"
+        >
+          <h1 class="title is-strong is-2 has-text-danger-dark">
             Off The Beaten Path
           </h1>
-          <figure  id="logoContainer">
+          <figure id="logoContainer">
             <img
               src="./assets/Images/Off The Beaten Path SVG With Mountains and Background layer.svg"
               class="image is-96x96"
@@ -34,7 +56,10 @@
       </header>
       <!-- hero/jumbotron -->
       <section class="hero is-medium is-justify-content-center" id="hero">
-        <div class="hero-body has-text-white has-text-strong is-flex is-justify-content-center is-align-items-center container" id="hero-body">
+        <div
+          class="hero-body has-text-white has-text-strong is-flex is-justify-content-center is-align-items-center container"
+          id="hero-body"
+        >
           <h1 class="has-text-weight-bold is-justify-content-center p-5">
             <span>Do</span>
             <span>not</span>
@@ -55,7 +80,7 @@
             <span>leave</span>
             <span>a</span>
             <span>trail!</span>
-            <br>
+            <br />
             <span>- R. W. Emerson</span>
           </h1>
         </div>
@@ -86,7 +111,11 @@
                   </button>
                 </form>
               </div>
-              <p class="panel-tabs has-text-white has-text-weight-bold py-2 is-size-5">Search History</p>
+              <p
+                class="panel-tabs has-text-white has-text-weight-bold py-2 is-size-5"
+              >
+                Search History
+              </p>
               <div id="historyContainer"></div>
             </nav>
           </section>
