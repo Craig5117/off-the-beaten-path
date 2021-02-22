@@ -302,7 +302,7 @@ var getLocationData = function (searchLocation) {
                     "topLink has-text-right pr-6 mt-2 mb-3";
                   var topReturnEl = document.createElement("a");
                   topReturnEl.setAttribute("href", "#header");
-                  topReturnEl.classList = "topLink has-text-link";
+                  topReturnEl.classList = "topLink has-text-white";
                   topReturnEl.textContent = "back to top";
                   topReturnContainer.append(topReturnEl);
                   trailSectionEl.append(dirInfoContainer);
